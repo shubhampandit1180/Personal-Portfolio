@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfoilo</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/2f929b61a1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- header section start -->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.jpg" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars " onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Frontend Devloper</p>
+          <h1>Hi, I'm <span> Shubham </span><br />Pandit From Nanded</h1>
+        </div>
+      </div>
+    </div>
+    <!-- header section end -->
+
+    <!-- about section start -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/ssp.jpeg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque
+              culpa deserunt voluptas. Optio facilis impedit assumenda obcaecati
+              modi corrupti unde blanditiis natus maiores, totam, magnam
+              deserunt officia eligendi ullam sapiente rem aperiam esse?Lorem
+              ipsum dolor sit, amet consectetur adipisicing elit. Similique
+              numquam ea alias quas minus, vel delectus rerum repellendus
+              corporis blanditiis sunt officiis expedita modi iste tempora odit,
+              consectetur soluta officia.
+            </p>
+
+            <div class="tab-title">
+              <p class="tab-links active-link" onclick="opentab('Skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="Skills">
+              <ul>
+                <li>
+                  <span>Web Development</span><br />Desining Web/App Interfaces
+                </li>
+                <li><span>App Development</span><br />Desining Web</li>
+                <li>
+                  <span>Python Development</span><br />Buildindg Android Apps
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2023</span><br />
+                  Trainee at Bosch Private Limited
+                </li>
+                <li><span>2022</span><br />Desining head at College</li>
+                <li><span>2021</span><br />Internship at Tata Motors</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2022</span><br />Btech in Production Engineering From
+                  SGGS Nanded
+                </li>
+                <li>
+                  <span>2018</span><br />Diploma in Production Engineering From
+                  Govt Polytechnic nanded
+                </li>
+                <li>
+                  <span>2014</span><br />Diploma in Iti From Govt Iti nanded
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- about section end -->
+
+    <!-- services start -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni
+              quod optio corrupti voluptatum sapiente atque adipisci, ducimus
+              voluptatibus nesciunt, expedita porro blanditiis perspiciatis.
+            </p>
+            <a href="#">Learn more </a>
+          </div>
+
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>App Design</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni
+              quod optio corrupti voluptatum sapiente atque adipisci, ducimus
+              voluptatibus nesciunt, expedita porro blanditiis perspiciatis.
+            </p>
+            <a href="#">Learn more </a>
+          </div>
+
+          <div>
+            <i class="fa-sharp fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni
+              quod optio corrupti voluptatum sapiente atque adipisci, ducimus
+              voluptatibus nesciunt, expedita porro blanditiis perspiciatis.
+            </p>
+            <a href="#">Learn more </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------ my Portfoilo-------->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/image1.jpg" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Similique maxime pariatur iusto. Optio,
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/image2 - Copy.jpg" />
+            <div class="layer">
+              <h3>Music App</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Similique maxime pariatur iusto. Optio.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/image3.jpg" />
+            <div class="layer">
+              <h3>Online Shopping App</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Similique maxime pariatur iusto. Optio,
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+    <!---- my portfolio ends----->
+
+    <!------ contact sectiin start --->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>shubhampandit841@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>8459431180</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/shubham.358358"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://twitter.com/shubhampandit05"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="https://www.instagram.com/the_shubhampandit/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="
+              www.linkedin.com/in/
+              shubham-pandit-a8233621a
+              "
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+            <a href="#" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type=" text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message"  rows="10" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright @ ShubhamPandit.<i class="fa-solid fa-heart"></i></p>
+      </div>
+    </div>
+ 
+<!------ script for about section------>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script> 
+
+
+
+
+<!-- script for sidemenu for small screen -->
+
+    <script> 
+
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu(){
+        sidemenu.style.right = "0";
+      }
+      function closemenu(){
+        sidemenu.style.right = "-200px";
+      }
+
+    </script>
+
+
+
+
+<!------ script for goggle sheet----->
+
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbw2t3gS_Vw2ucvzwG1nvYU-5_fdqhSj4W2h4x8Q61NdO8QQJ8hnN9Cr7856EAkTXg2I/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg =document.getElementById("msg")
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+              msg.innerHTML =""
+            },5000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+
+
+  </body>
+</html>
